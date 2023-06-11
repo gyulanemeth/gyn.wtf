@@ -13,11 +13,11 @@ const sideProjects = {
   text: 'Side Projects',
   link: '/side-projects/',
   items: [
-    { text: 'Build, show & tell', link: '/side-projects/build-show-and-tell' },
     { text: 'Investor Evaluation', link: '/side-projects/investor-evaluation' },
     { text: 'BlueFox Email', link: '/side-projects/bluefox-email' },
     { text: 'Email Assistant', link: '/side-projects/email-assistant' },
-    { text: 'Recruitment Agency', link: '/side-projects/recruitment-agency' }
+    { text: 'Recruitment Agency', link: '/side-projects/recruitment-agency' },
+    { text: 'Build, show & tell', link: '/side-projects/build-show-and-tell' }
   ]
 }
 
