@@ -51,6 +51,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/gyulanemeth' },
       { icon: 'twitter', link: 'https://twitter.com/gyulanemeth85'}
     ],
-    smoothScroll: true
+    smoothScroll: true,
+    footer: {
+      message: '',
+      copyright: 'Copyright © 2023-present Gyula Németh'
+    }
   }
 })
