@@ -26,6 +26,10 @@ export default defineConfig({
   lang: 'en-US',
   title: 'GYN.WTF',
   description: 'This is a Web Technology Forum',
+  head: [
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-FQ3VVWJD1R' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-FQ3VVWJD1R');`]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: './logo.png',
