@@ -1,0 +1,25 @@
+{
+  "name": "gyn.wtf",
+  "version": "0.0.0",
+  "description": "GYN.WTF website",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyulanemeth/gyn.wtf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyulanemeth/gyn.wtf/issues"
+  },
+  "homepage": "https://github.com/gyulanemeth/gyn.wtf#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.1",
+    "vuepress": "^2.0.0-beta.53"
+  }
+}
