@@ -25,4 +25,12 @@ This website is dedicated to these projects.
 
       margin: 30px;
   }
+
+  @media only screen and (max-width: 500px) {
+    img {
+      float: none;
+      width: 512px;
+      margin: 0;
+    }
+  }
 </style>
