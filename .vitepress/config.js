@@ -14,7 +14,12 @@ const sideProjects = {
   link: '/side-projects/',
   items: [
     { text: 'Investor Evaluation', link: '/side-projects/investor-evaluation' },
-    { text: 'BlueFox Email', link: '/side-projects/bluefox-email' },
+    { text: 'bluefox.email', link: '/side-projects/bluefox-email/', items: [
+      { text: 'Target market', link: '/side-projects/bluefox-email/target-market' },
+      { text: 'Product strategy', link: '/side-projects/bluefox-email/product-strategy' },
+      { text: 'Content strategy', link: '/side-projects/bluefox-email/content-strategy' },
+      { text: 'Pricing', link: '/side-projects/bluefox-email/pricing' }
+    ] },
     { text: 'Email Assistant', link: '/side-projects/email-assistant' },
     { text: 'Recruitment Agency', link: '/side-projects/recruitment-agency' },
     { text: 'Build, show & tell', link: '/side-projects/build-show-and-tell' }
