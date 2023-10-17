@@ -22,7 +22,8 @@ const sideProjects = {
     ] },
     { text: 'Email Assistant', link: '/side-projects/email-assistant' },
     { text: 'Recruitment Agency', link: '/side-projects/recruitment-agency' },
-    { text: 'Build, show & tell', link: '/side-projects/build-show-and-tell' }
+    { text: 'Build, show & tell', link: '/side-projects/build-show-and-tell' },
+    { text: 'bushcraft.email', link: '/side-projects/bushcraft-email'}
   ]
 }
 
